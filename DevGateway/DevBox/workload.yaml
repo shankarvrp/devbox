@@ -3,7 +3,6 @@ name: devbox-customization
 tasks:
   - name: curl
     parameters:
-      sourceURL: 'http://172.190.121.178:8081/repository/zip-repo/notepadplusplus'
-      package: 'notepadplusplus'
-      version: '8.5.6'
+      sourceURL: 'https://download.microsoft.com/download/c/4/a/c4a0a569-87cd-4633-a81e-26ef3d4266df/'
+      package: 'DevGateway.zip'
       destinationDirectory: 'C:\Temp'
